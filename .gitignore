@@ -8,9 +8,4 @@ captures/
 .externalNativeBuild
 .cxx/
 *.apk
-*.ap_
-*.class
-*.dex
-*.exe
-*.o
-.DS_Store
+!/releases/*.apk
