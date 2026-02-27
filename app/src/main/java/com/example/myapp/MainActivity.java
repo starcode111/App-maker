@@ -158,14 +158,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         if (webView != null) {
-            webView.enableForeground();
+            webView.onResume();
         }
     }
 
     @Override
     protected void onPause() {
         if (webView != null) {
-            webView.disableForeground();
+            webView.onPause();
         }
         super.onPause();
     }
